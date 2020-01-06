@@ -1,3 +1,6 @@
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
+
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 from model import Network
